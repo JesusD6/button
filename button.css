@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    background-color: white;
+    margin: 0;
+
+}
+
+.star{
+    margin: 5px;
+    display: flex;
+    height: 600px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin: 0;
+    padding: 0px 15px 0px 15px;
+    font-size: 50px;
+    border-radius: 100px;
+    border: solid 1px;
+}
+
+button a{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: black;
+}
+
+button:hover{
+    transition: 0.5s;
+    background: black;
+    margin: 0;
+    padding: 0px 30px 0px 30px;
+    font-size: 50px;
+    border-radius: 100px;
+    border: solid 1px;
+}
+
+button a:hover{
+    transition: 0.5s;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 0px 30px 0px 30px;
+
+}
+
+
